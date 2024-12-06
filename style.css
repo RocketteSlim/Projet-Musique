@@ -1,0 +1,78 @@
+footer {
+    background-color: #124559;
+}
+
+footer a {
+    text-decoration: none;
+    color: orangered;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    cursor: pointer;
+
+}
+
+footer nav li {
+    transition: transform 0.5s;
+}
+
+footer nav li:hover {
+    transform: scale(1.6);
+}
+
+
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer .ft_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer .ft_socials {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+footer .ft_socials img {
+    width: 30px;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+}
+
+footer ul li {
+    padding: 1rem 2rem;
+}
+
+footer .ft_legal_notices {
+    text-align: center;
+}
+
+footer .ft_newsletter {
+    margin-top: 2rem;
+}
+
+footer .ft_newsletter input:first-of-type {
+    margin-right: 1rem;
+}
+
+footer input {
+    padding: 0.5rem 0.2rem;
+    border: none;
+    border-radius: 0.2rem;
+}
