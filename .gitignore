@@ -1,0 +1,25 @@
+# Ignorer les fichiers de configuration de l'IDE
+.idea/
+.vscode/
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.temp
+
+# Ignorer les fichiers de build
+/dist/
+/build/
+
+# Ignorer les dépendances
+/node_modules/
+
+# Ignorer les fichiers de système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de sauvegarde
+*~
+*.bak
